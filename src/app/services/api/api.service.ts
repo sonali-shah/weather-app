@@ -15,10 +15,18 @@ export class ApiService {
     .get<City[]>('./assets/cities-fr.json')
     .pipe(shareReplay());
 
+  private chartProperties$ = this.http
+    .get('./assets/chart-properties.json')
+    .pipe(shareReplay());
+
   constructor(private http: HttpClient) {}
 
   getCities() {
     return this.cities$;
+  }
+
+  getChartProperties() {
+    return this.chartProperties$;
   }
 
   getWeather(city: City) {

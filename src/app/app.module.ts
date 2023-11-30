@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { CitySelectComponent } from './components/city-select/city-select.component';
 import { FutureWeatherComponent } from './components/future-weather/future-weather.component';
 import { TodayWeatherComponent } from './components/today-weather/today-weather.component';
+import { WeatherChartComponent } from './components/weather-chart/weather-chart.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { TodayWeatherComponent } from './components/today-weather/today-weather.
     CitySelectComponent,
     TodayWeatherComponent,
     FutureWeatherComponent,
+    WeatherChartComponent,
   ],
   imports: [
     BrowserModule,

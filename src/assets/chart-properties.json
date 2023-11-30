@@ -1,0 +1,9 @@
+{
+  "minTempStrokeColor":"#fff",
+  "chartWidth":"460",
+  "chartHeight":"400",
+  "chartMarginLeft": "30",
+  "chartMarginRight": "15",
+  "chartMarginTop": "15",
+  "chartMarginBottom": "40"
+}
